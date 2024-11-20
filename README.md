@@ -36,8 +36,8 @@ Um projeto backend robusto desenvolvido com NestJS, demonstrando boas práticas 
 
 1. Clone o repositório
 ```bash
-git clone [seu-repositorio]
-cd [nome-do-projeto]
+git clone https://github.com/jltrench/ecommerce-api
+cd ecommerce-api
 ```
 
 2. Instale as dependências
