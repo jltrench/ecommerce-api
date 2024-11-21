@@ -19,7 +19,7 @@ services:
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
-    command: sh -c "pnpm prisma migrate deploy && pnpm start:dev"
+    command: sh -c "pnpm prisma migrate deploy && pnpm prisma db seed && pnpm start:dev"
 
   postgres:
     image: postgres:16
